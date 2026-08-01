@@ -19,20 +19,35 @@ Mona's website focuses on practical GitHub guidance backed by official reference
 
 ### GitHub Copilot
 
+- **Gemini 2.5 Pro and Gemini 3 Flash deprecated** — These model options are being removed from GitHub Copilot. Plan to migrate to newer alternatives. ([GitHub Changelog, Jul 31 2026](https://github.blog/changelog/2026-07-31-gemini-2-5-pro-and-gemini-3-flash-deprecated))
+- **Copilot code review: Agent skills and MCP now generally available** — Copilot code review can now use agent skills and MCP integrations in GA. ([GitHub Changelog, Jul 29 2026](https://github.blog/changelog/2026-07-29-copilot-code-review-agent-skills-and-mcp-now-generally-available))
+- **Copilot in Visual Studio Code — July 2026 releases** — Monthly update to Copilot in VS Code with new capabilities. ([GitHub Changelog, Jul 30 2026](https://github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-code-july-2026-releases))
+- **Copilot in Visual Studio — July update** — New features and improvements for Visual Studio users. ([GitHub Changelog, Jul 30 2026](https://github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-july-update))
+- **Default model enablement for Copilot Business and Enterprise** — Admins can now set a default model for their organization. ([GitHub Changelog, Jul 29 2026](https://github.blog/changelog/2026-07-29-default-model-enablement-for-copilot-business-and-enterprise))
 - **Grok 4.5 now available in GitHub Copilot** — A new model option is available for Copilot users. ([GitHub Changelog, Jul 28 2026](https://github.blog/changelog/2026-07-28-grok-4-5-is-now-available-in-github-copilot))
 - **Copilot app usage metrics expand across report rollups** — Org admins can now see Copilot usage data rolled up across more reporting dimensions. ([GitHub Changelog, Jul 28 2026](https://github.blog/changelog/2026-07-28-github-copilot-app-usage-metrics-now-expand-across-report-rollups))
 - **Getting started with GitHub Copilot** — GitHub published a beginner-friendly guide covering the Copilot app and core workflows. ([GitHub Blog, Jul 23 2026](https://github.blog))
 
+### Collaboration
+
+- **Stacked pull requests are now in public preview** — You can now create and manage stacked PRs natively on GitHub, making it easier to break large changes into reviewable pieces. ([GitHub Changelog, Jul 30 2026](https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview))
+
+### GitHub Actions
+
+- **Reference same-repository actions with self-repository syntax** — Actions can now reference other actions in the same repository using a cleaner self-repo syntax. ([GitHub Changelog, Jul 30 2026](https://github.blog/changelog/2026-07-30-reference-same-repository-actions-with-self-repository-syntax))
+- **GitHub Actions holds potentially malicious workflows for approval** — Workflows from first-time contributors are now held for manual review before running. ([GitHub Changelog, Jul 28 2026](https://github.blog/changelog/2026-07-28-github-actions-holds-potentially-malicious-workflows-for-approval))
+
 ### Security & Supply Chain
 
-- **GitHub Actions holds potentially malicious workflows for approval** — Workflows from first-time contributors are now held for manual review before running. ([GitHub Changelog, Jul 28 2026](https://github.blog/changelog/2026-07-28-github-actions-holds-potentially-malicious-workflows-for-approval))
+- **Restricting npm bypass-2FA granular access tokens** — npm is tightening controls on tokens that previously could bypass 2FA requirements. ([GitHub Changelog, Jul 31 2026](https://github.blog/changelog/2026-07-31-restricting-npm-bypass-2fa-granular-access-tokens))
+- **GitHub Models is now retired** — The GitHub Models preview has ended. ([GitHub Changelog, Jul 30 2026](https://github.blog/changelog/2026-07-30-github-models-is-now-retired))
 - **npm publish-time malware scanning** — npm now scans packages for malware at publish time and flags dual-use metadata. ([GitHub Changelog, Jul 28 2026](https://github.blog/changelog/2026-07-28-npm-publish-time-malware-scanning-and-dual-use-metadata))
 - **Dependabot alerts on malicious packages across more ecosystems** — Dependabot now detects known-malicious packages beyond npm. ([GitHub Changelog, Jul 28 2026](https://github.blog/changelog/2026-07-28-dependabot-alerts-on-malicious-packages-across-more-ecosystems))
 - **Disrupting supply chain attacks on npm and GitHub Actions** — A deep-dive on how GitHub is detecting and stopping supply chain attacks. ([GitHub Blog, Jul 27 2026](https://github.blog))
 
 ### Code Quality
 
-- **CodeQL 2.26.1** — Improved analysis accuracy and broader framework coverage for code scanning. ([GitHub Changelog, Jul 28 2026](https://github.blog/changelog/2026-07-29-codeql-2-26-1-improves-analysis-accuracy-and-framework-coverage))
+- **CodeQL 2.26.1** — Improved analysis accuracy and broader framework coverage for code scanning. ([GitHub Changelog, Jul 29 2026](https://github.blog/changelog/2026-07-29-codeql-2-26-1-improves-analysis-accuracy-and-framework-coverage))
 
 ### Awesome Copilot Workflows
 

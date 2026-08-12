@@ -19,20 +19,25 @@ Mona's website focuses on practical GitHub guidance backed by official reference
 
 ### GitHub Copilot
 
-- **Grok 4.5 now available in GitHub Copilot** — A new model option is available for Copilot users. ([GitHub Changelog, Jul 28 2026](https://github.blog/changelog/2026-07-28-grok-4-5-is-now-available-in-github-copilot))
-- **Copilot app usage metrics expand across report rollups** — Org admins can now see Copilot usage data rolled up across more reporting dimensions. ([GitHub Changelog, Jul 28 2026](https://github.blog/changelog/2026-07-28-github-copilot-app-usage-metrics-now-expand-across-report-rollups))
-- **Getting started with GitHub Copilot** — GitHub published a beginner-friendly guide covering the Copilot app and core workflows. ([GitHub Blog, Jul 23 2026](https://github.blog))
+- **Copilot Memory and Ollama in JetBrains** — Copilot for JetBrains now supports memory (persistent context across sessions) and local models via Ollama. ([GitHub Changelog, Aug 11 2026](https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains))
+- **MAI Code 1.1 Flash available in Copilot** — A new fast model option from Microsoft is now selectable in GitHub Copilot. ([GitHub Changelog, Aug 11 2026](https://github.blog/changelog/2026-08-11-mai-code-1-1-flash-available-in-github-copilot))
+- **Per-model token breakdown in usage reports** — Admins can now see token consumption broken down by individual model in Copilot usage reports. ([GitHub Changelog, Aug 11 2026](https://github.blog/changelog/2026-08-11-per-model-token-breakdown-in-the-usage-report))
+- **Copilot on web expands conversation controls** — The Copilot web interface now offers more controls for managing and navigating conversations. ([GitHub Changelog, Aug 10 2026](https://github.blog/changelog/2026-08-10-copilot-on-web-expands-conversation-controls))
+- **Copilot Code Review effort levels now generally available** — Teams can now configure how deeply Copilot reviews PRs, from lightweight checks to thorough reviews. ([GitHub Changelog, Aug 7 2026](https://github.blog/changelog/2026-08-07-copilot-code-review-effort-levels-are-generally-available))
+- **Copilot Impact Dashboard adds ROI section** — The Copilot dashboard now includes a return-on-investment section to help teams measure developer productivity gains. ([GitHub Changelog, Aug 7 2026](https://github.blog/changelog/2026-08-07-copilot-impact-dashboard-adds-a-return-on-investment-section))
+- **Kimi K3 now available in GitHub Copilot** — Another model choice added; Kimi K3 joins the growing list of models available to Copilot users. ([GitHub Changelog, Aug 6 2026](https://github.blog/changelog/2026-08-06-kimi-k3-is-now-available-in-github-copilot))
+- **MCP allowlists in enterprise managed settings** — Enterprise admins can now control which MCP servers are permitted for use with Copilot. ([GitHub Changelog, Aug 6 2026](https://github.blog/changelog/2026-08-06-mcp-allowlists-in-enterprise-managed-settings))
 
-### Security & Supply Chain
+### Repository & Project Management
 
-- **GitHub Actions holds potentially malicious workflows for approval** — Workflows from first-time contributors are now held for manual review before running. ([GitHub Changelog, Jul 28 2026](https://github.blog/changelog/2026-07-28-github-actions-holds-potentially-malicious-workflows-for-approval))
-- **npm publish-time malware scanning** — npm now scans packages for malware at publish time and flags dual-use metadata. ([GitHub Changelog, Jul 28 2026](https://github.blog/changelog/2026-07-28-npm-publish-time-malware-scanning-and-dual-use-metadata))
-- **Dependabot alerts on malicious packages across more ecosystems** — Dependabot now detects known-malicious packages beyond npm. ([GitHub Changelog, Jul 28 2026](https://github.blog/changelog/2026-07-28-dependabot-alerts-on-malicious-packages-across-more-ecosystems))
-- **Disrupting supply chain attacks on npm and GitHub Actions** — A deep-dive on how GitHub is detecting and stopping supply chain attacks. ([GitHub Blog, Jul 27 2026](https://github.blog))
+- **Automatically migrate branch protection rules to rulesets** — GitHub now offers a one-click migration path to convert legacy branch protection rules into the newer, more powerful rulesets. ([GitHub Changelog, Aug 11 2026](https://github.blog/changelog/2026-08-11-automatically-migrate-branch-protection-rules-to-repository-rulesets))
+- **Connecting issues and multi-select field support** — Projects now support linking related issues together and multi-select custom fields. ([GitHub Changelog, Aug 7 2026](https://github.blog/changelog/2026-08-07-connecting-issues-and-multi-select-field-support))
+- **Set pull request limits at the organization level** — Org owners can now cap the number of open pull requests across repositories. ([GitHub Changelog, Aug 6 2026](https://github.blog/changelog/2026-08-06-set-pull-request-limits-at-the-organization-level))
+- **Enterprises can now install third-party GitHub Apps** — Enterprise accounts can directly install and manage third-party GitHub Apps across their organizations. ([GitHub Changelog, Aug 7 2026](https://github.blog/changelog/2026-08-07-enterprises-can-now-install-third-party-github-apps))
 
-### Code Quality
+### Security
 
-- **CodeQL 2.26.1** — Improved analysis accuracy and broader framework coverage for code scanning. ([GitHub Changelog, Jul 28 2026](https://github.blog/changelog/2026-07-29-codeql-2-26-1-improves-analysis-accuracy-and-framework-coverage))
+- **Secret scanning coverage updates** — GitHub expanded secret scanning to detect additional secret types across more providers. ([GitHub Changelog, Aug 7 2026](https://github.blog/changelog/2026-08-07-secret-scanning-coverage-updates))
 
 ### Awesome Copilot Workflows
 
